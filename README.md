@@ -181,4 +181,4 @@ triangles with `flag == true`, and in writing scenario we will rewrite x-coordin
 ![](plots/Triangle_ComplexScenario_1000.png)
 ![](plots/Triangle_ComplexScenario_100000.png)
 
-## `Observations and conclusions`
+## Observations and conclusions
