@@ -33,7 +33,7 @@ Namely, we will compare three strategies:
    ```
 4. Two arrays: `long[]` array for all primitives and `Any[]` for references
    ```kotlin
-   class WrapperTwoArrays(val primitives: LongArray, refs: Array<Any?>)
+   class WrapperTwoArrays(@JvmField val primitives: LongArray, @JvmField refs: Array<Any?>)
    ```
 
 ### Elements types
