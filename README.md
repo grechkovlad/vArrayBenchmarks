@@ -71,114 +71,63 @@ triangles with `flag == true`, and in writing scenario we will rewrite x-coordin
 
 #### Initializing
 
-![](plots/Point2D_Create_10.png)
-![](plots/Point2D_Create_1000.png)
-![](plots/Point2D_Create_100000.png)
+![](plots/Point2D_Create_HotSpot.png)
+![](plots/Point2D_Create_ART.png)
 
-#### Natural order reading
+![](plots/Point2D_ReadInNaturalOrder_HotSpot.png)
+![](plots/Point2D_ReadInNaturalOrder_ART.png)
 
-![](plots/Point2D_ReadInNaturalOrder_10.png)
-![](plots/Point2D_ReadInNaturalOrder_1000.png)
-![](plots/Point2D_ReadInNaturalOrder_100000.png)
+![](plots/Point2D_ReadInRandomOrder_HotSpot.png)
+![](plots/Point2D_ReadInRandomOrder_ART.png)
 
-#### Natural order writing
+![](plots/Point2D_WriteInNaturalOrder_HotSpot.png)
+![](plots/Point2D_WriteInNaturalOrder_ART.png)
 
-![](plots/Point2D_WriteInNaturalOrder_10.png)
-![](plots/Point2D_WriteInNaturalOrder_1000.png)
-![](plots/Point2D_WriteInNaturalOrder_100000.png)
+![](plots/Point2D_WriteInRandomOrder_HotSpot.png)
+![](plots/Point2D_WriteInRandomOrder_ART.png)
 
-#### Random order reading
+![](plots/Point2D_ComplexScenario_HotSpot.png)
+![](plots/Point2D_ComplexScenario_ART.png)
 
-![](plots/Point2D_ReadInRandomOrder_10.png)
-![](plots/Point2D_ReadInRandomOrder_1000.png)
-![](plots/Point2D_ReadInRandomOrder_100000.png)
-
-#### Random order writing
-
-![](plots/Point2D_WriteInRandomOrder_10.png)
-![](plots/Point2D_WriteInRandomOrder_1000.png)
-![](plots/Point2D_WriteInRandomOrder_100000.png)
-
-#### Complex case (all above)
-
-![](plots/Point2D_ComplexScenario_10.png)
-![](plots/Point2D_ComplexScenario_1000.png)
-![](plots/Point2D_ComplexScenario_100000.png)
 
 ### `Rectangle`
 
-#### Initializing
+![](plots/Rectangle_Create_HotSpot.png)
+![](plots/Rectangle_Create_ART.png)
 
-![](plots/Rectangle_Create_10.png)
-![](plots/Rectangle_Create_1000.png)
-![](plots/Rectangle_Create_100000.png)
+![](plots/Rectangle_ReadInNaturalOrder_HotSpot.png)
+![](plots/Rectangle_ReadInNaturalOrder_ART.png)
 
-#### Natural order reading
+![](plots/Rectangle_ReadInRandomOrder_HotSpot.png)
+![](plots/Rectangle_ReadInRandomOrder_ART.png)
 
-![](plots/Rectangle_ReadInNaturalOrder_10.png)
-![](plots/Rectangle_ReadInNaturalOrder_1000.png)
-![](plots/Rectangle_ReadInNaturalOrder_100000.png)
+![](plots/Rectangle_WriteInNaturalOrder_HotSpot.png)
+![](plots/Rectangle_WriteInNaturalOrder_ART.png)
 
-#### Natural order writing
+![](plots/Rectangle_WriteInRandomOrder_HotSpot.png)
+![](plots/Rectangle_WriteInRandomOrder_ART.png)
 
-![](plots/Rectangle_WriteInNaturalOrder_10.png)
-![](plots/Rectangle_WriteInNaturalOrder_1000.png)
-![](plots/Rectangle_WriteInNaturalOrder_100000.png)
-
-#### Random order reading
-
-![](plots/Rectangle_ReadInRandomOrder_10.png)
-![](plots/Rectangle_ReadInRandomOrder_1000.png)
-![](plots/Rectangle_ReadInRandomOrder_100000.png)
-
-#### Random order writing
-
-![](plots/Rectangle_WriteInRandomOrder_10.png)
-![](plots/Rectangle_WriteInRandomOrder_1000.png)
-![](plots/Rectangle_WriteInRandomOrder_100000.png)
-
-#### Complex case (all above)
-
-![](plots/Rectangle_ComplexScenario_10.png)
-![](plots/Rectangle_ComplexScenario_1000.png)
-![](plots/Rectangle_ComplexScenario_100000.png)
+![](plots/Rectangle_ComplexScenario_HotSpot.png)
+![](plots/Rectangle_ComplexScenario_ART.png)
 
 ### `Triangle`
 
-#### Initializing
+![](plots/Triangle_Create_HotSpot.png)
+![](plots/Rectangle_Create_ART.png)
 
-![](plots/Triangle_Create_10.png)
-![](plots/Triangle_Create_1000.png)
-![](plots/Triangle_Create_100000.png)
+![](plots/Triangle_ReadInNaturalOrder_HotSpot.png)
+![](plots/Triangle_ReadInNaturalOrder_ART.png)
 
-#### Natural order reading
+![](plots/Triangle_ReadInRandomOrder_HotSpot.png)
+![](plots/Triangle_ReadInRandomOrder_ART.png)
 
-![](plots/Triangle_ReadInNaturalOrder_10.png)
-![](plots/Triangle_ReadInNaturalOrder_1000.png)
-![](plots/Triangle_ReadInNaturalOrder_100000.png)
+![](plots/Triangle_WriteInNaturalOrder_HotSpot.png)
+![](plots/Triangle_WriteInNaturalOrder_ART.png)
 
-#### Natural order writing
+![](plots/Triangle_WriteInRandomOrder_HotSpot.png)
+![](plots/Triangle_WriteInRandomOrder_ART.png)
 
-![](plots/Triangle_WriteInNaturalOrder_10.png)
-![](plots/Triangle_WriteInNaturalOrder_1000.png)
-![](plots/Triangle_WriteInNaturalOrder_100000.png)
-
-#### Random order reading
-
-![](plots/Triangle_ReadInRandomOrder_10.png)
-![](plots/Triangle_ReadInRandomOrder_1000.png)
-![](plots/Triangle_ReadInRandomOrder_100000.png)
-
-#### Random order writing
-
-![](plots/Triangle_WriteInRandomOrder_10.png)
-![](plots/Triangle_WriteInRandomOrder_1000.png)
-![](plots/Triangle_WriteInRandomOrder_100000.png)
-
-#### Complex case (all above)
-
-![](plots/Triangle_ComplexScenario_10.png)
-![](plots/Triangle_ComplexScenario_1000.png)
-![](plots/Triangle_ComplexScenario_100000.png)
+![](plots/Triangle_ComplexScenario_HotSpot.png)
+![](plots/Triangle_ComplexScenario_ART.png)
 
 ## Observations and conclusions

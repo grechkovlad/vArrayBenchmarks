@@ -1,216 +1,216 @@
-VArrays.run_Point2D_ReadInNaturalOrder_Boxed                      10  avgt             11,668          ns/op
-VArrays.run_Point2D_ReadInNaturalOrder_Boxed                    1000  avgt            567,619          ns/op
-VArrays.run_Point2D_ReadInNaturalOrder_Boxed                  100000  avgt          69042,754          ns/op
-VArrays.run_Point2D_ReadInNaturalOrder_PerSize                    10  avgt             11,150          ns/op
-VArrays.run_Point2D_ReadInNaturalOrder_PerSize                  1000  avgt            685,538          ns/op
-VArrays.run_Point2D_ReadInNaturalOrder_PerSize                100000  avgt          67145,779          ns/op
-VArrays.run_Point2D_ReadInNaturalOrder_PerType                    10  avgt             11,537          ns/op
-VArrays.run_Point2D_ReadInNaturalOrder_PerType                  1000  avgt            679,285          ns/op
-VArrays.run_Point2D_ReadInNaturalOrder_PerType                100000  avgt          68502,182          ns/op
-VArrays.run_Point2D_ReadInNaturalOrder_TwoArrays                  10  avgt             11,910          ns/op
-VArrays.run_Point2D_ReadInNaturalOrder_TwoArrays                1000  avgt            679,108          ns/op
-VArrays.run_Point2D_ReadInNaturalOrder_TwoArrays              100000  avgt          69320,899          ns/op
-VArrays.run_Point2D_ReadInRandomOrder_Boxed                       10  avgt             10,630          ns/op
-VArrays.run_Point2D_ReadInRandomOrder_Boxed                     1000  avgt            583,273          ns/op
-VArrays.run_Point2D_ReadInRandomOrder_Boxed                   100000  avgt         143029,333          ns/op
-VArrays.run_Point2D_ReadInRandomOrder_PerSize                     10  avgt             12,187          ns/op
-VArrays.run_Point2D_ReadInRandomOrder_PerSize                   1000  avgt            682,017          ns/op
-VArrays.run_Point2D_ReadInRandomOrder_PerSize                 100000  avgt          76868,376          ns/op
-VArrays.run_Point2D_ReadInRandomOrder_PerType                     10  avgt             12,045          ns/op
-VArrays.run_Point2D_ReadInRandomOrder_PerType                   1000  avgt            678,393          ns/op
-VArrays.run_Point2D_ReadInRandomOrder_PerType                 100000  avgt          77404,324          ns/op
-VArrays.run_Point2D_ReadInRandomOrder_TwoArrays                   10  avgt             11,559          ns/op
-VArrays.run_Point2D_ReadInRandomOrder_TwoArrays                 1000  avgt            686,882          ns/op
-VArrays.run_Point2D_ReadInRandomOrder_TwoArrays               100000  avgt          81478,657          ns/op
-VArrays.run_Point2D_ComplexScenario_Boxed                            10  avgt             77,048          ns/op
-VArrays.run_Point2D_ComplexScenario_Boxed                          1000  avgt           8113,920          ns/op
-VArrays.run_Point2D_ComplexScenario_Boxed                        100000  avgt         876348,624          ns/op
-VArrays.run_Point2D_ComplexScenario_PerSize                          10  avgt             73,488          ns/op
-VArrays.run_Point2D_ComplexScenario_PerSize                        1000  avgt           3391,778          ns/op
-VArrays.run_Point2D_ComplexScenario_PerSize                      100000  avgt         359960,840          ns/op
-VArrays.run_Point2D_ComplexScenario_PerType                          10  avgt             68,497          ns/op
-VArrays.run_Point2D_ComplexScenario_PerType                        1000  avgt           3379,551          ns/op
-VArrays.run_Point2D_ComplexScenario_PerType                      100000  avgt         354209,649          ns/op
-VArrays.run_Point2D_ComplexScenario_TwoArrays                        10  avgt             53,662          ns/op
-VArrays.run_Point2D_ComplexScenario_TwoArrays                      1000  avgt           3856,776          ns/op
-VArrays.run_Point2D_ComplexScenario_TwoArrays                    100000  avgt         557986,234          ns/op
-VArrays.run_Point2D_Create_Boxed                                     10  avgt             22,877          ns/op
-VArrays.run_Point2D_Create_Boxed                                   1000  avgt           2306,932          ns/op
-VArrays.run_Point2D_Create_Boxed                                 100000  avgt         188532,836          ns/op
-VArrays.run_Point2D_Create_PerSize                                   10  avgt             17,027          ns/op
-VArrays.run_Point2D_Create_PerSize                                 1000  avgt            589,136          ns/op
-VArrays.run_Point2D_Create_PerSize                               100000  avgt          45600,100          ns/op
-VArrays.run_Point2D_Create_PerType                                   10  avgt             22,584          ns/op
-VArrays.run_Point2D_Create_PerType                                 1000  avgt            483,511          ns/op
-VArrays.run_Point2D_Create_PerType                               100000  avgt          45599,033          ns/op
-VArrays.run_Point2D_Create_TwoArrays                                 10  avgt             14,167          ns/op
-VArrays.run_Point2D_Create_TwoArrays                               1000  avgt            807,041          ns/op
-VArrays.run_Point2D_Create_TwoArrays                             100000  avgt         212601,501          ns/op
-VArrays.run_Point2D_WriteInNaturalOrder_Boxed                        10  avgt             25,492          ns/op
-VArrays.run_Point2D_WriteInNaturalOrder_Boxed                      1000  avgt           2362,713          ns/op
-VArrays.run_Point2D_WriteInNaturalOrder_Boxed                    100000  avgt         265345,095          ns/op
-VArrays.run_Point2D_WriteInNaturalOrder_PerSize                      10  avgt             11,333          ns/op
-VArrays.run_Point2D_WriteInNaturalOrder_PerSize                    1000  avgt            800,315          ns/op
-VArrays.run_Point2D_WriteInNaturalOrder_PerSize                  100000  avgt          74997,390          ns/op
-VArrays.run_Point2D_WriteInNaturalOrder_PerType                      10  avgt             11,333          ns/op
-VArrays.run_Point2D_WriteInNaturalOrder_PerType                    1000  avgt            794,134          ns/op
-VArrays.run_Point2D_WriteInNaturalOrder_PerType                  100000  avgt          75216,458          ns/op
-VArrays.run_Point2D_WriteInNaturalOrder_TwoArrays                    10  avgt             12,145          ns/op
-VArrays.run_Point2D_WriteInNaturalOrder_TwoArrays                  1000  avgt            919,940          ns/op
-VArrays.run_Point2D_WriteInNaturalOrder_TwoArrays                100000  avgt         228218,693          ns/op
-VArrays.run_Point2D_WriteInRandomOrder_Boxed                         10  avgt             26,393          ns/op
-VArrays.run_Point2D_WriteInRandomOrder_Boxed                       1000  avgt           2392,336          ns/op
-VArrays.run_Point2D_WriteInRandomOrder_Boxed                     100000  avgt         319486,188          ns/op
-VArrays.run_Point2D_WriteInRandomOrder_PerSize                       10  avgt             11,245          ns/op
-VArrays.run_Point2D_WriteInRandomOrder_PerSize                     1000  avgt            793,206          ns/op
-VArrays.run_Point2D_WriteInRandomOrder_PerSize                   100000  avgt          88050,099          ns/op
-VArrays.run_Point2D_WriteInRandomOrder_PerType                       10  avgt             11,335          ns/op
-VArrays.run_Point2D_WriteInRandomOrder_PerType                     1000  avgt            809,979          ns/op
-VArrays.run_Point2D_WriteInRandomOrder_PerType                   100000  avgt          88038,792          ns/op
-VArrays.run_Point2D_WriteInRandomOrder_TwoArrays                     10  avgt             12,071          ns/op
-VArrays.run_Point2D_WriteInRandomOrder_TwoArrays                   1000  avgt            945,449          ns/op
-VArrays.run_Point2D_WriteInRandomOrder_TwoArrays                 100000  avgt          94572,859          ns/op
-VArrays.run_Rectangle_ReadInNaturalOrder_Boxed                  10  avgt             14,616          ns/op
-VArrays.run_Rectangle_ReadInNaturalOrder_Boxed                1000  avgt            972,124          ns/op
-VArrays.run_Rectangle_ReadInNaturalOrder_Boxed              100000  avgt         156024,967          ns/op
-VArrays.run_Rectangle_ReadInNaturalOrder_PerSize                10  avgt             11,183          ns/op
-VArrays.run_Rectangle_ReadInNaturalOrder_PerSize              1000  avgt            940,697          ns/op
-VArrays.run_Rectangle_ReadInNaturalOrder_PerSize            100000  avgt          97407,579          ns/op
-VArrays.run_Rectangle_ReadInNaturalOrder_PerType                10  avgt             11,275          ns/op
-VArrays.run_Rectangle_ReadInNaturalOrder_PerType              1000  avgt            941,901          ns/op
-VArrays.run_Rectangle_ReadInNaturalOrder_PerType            100000  avgt          95615,862          ns/op
-VArrays.run_Rectangle_ReadInNaturalOrder_TwoArrays              10  avgt             11,443          ns/op
-VArrays.run_Rectangle_ReadInNaturalOrder_TwoArrays            1000  avgt            945,385          ns/op
-VArrays.run_Rectangle_ReadInNaturalOrder_TwoArrays          100000  avgt          95690,143          ns/op
-VArrays.run_Rectangle_ReadInRandomOrder_Boxed                   10  avgt             14,838          ns/op
-VArrays.run_Rectangle_ReadInRandomOrder_Boxed                 1000  avgt            976,891          ns/op
-VArrays.run_Rectangle_ReadInRandomOrder_Boxed               100000  avgt         283623,332          ns/op
-VArrays.run_Rectangle_ReadInRandomOrder_PerSize                 10  avgt             11,466          ns/op
-VArrays.run_Rectangle_ReadInRandomOrder_PerSize               1000  avgt            942,215          ns/op
-VArrays.run_Rectangle_ReadInRandomOrder_PerSize             100000  avgt          95763,646          ns/op
-VArrays.run_Rectangle_ReadInRandomOrder_PerType                 10  avgt             11,108          ns/op
-VArrays.run_Rectangle_ReadInRandomOrder_PerType               1000  avgt            943,062          ns/op
-VArrays.run_Rectangle_ReadInRandomOrder_PerType             100000  avgt          96848,186          ns/op
-VArrays.run_Rectangle_ReadInRandomOrder_TwoArrays               10  avgt             11,600          ns/op
-VArrays.run_Rectangle_ReadInRandomOrder_TwoArrays             1000  avgt            952,521          ns/op
-VArrays.run_Rectangle_ReadInRandomOrder_TwoArrays           100000  avgt         111419,812          ns/op
-VArrays.run_Rectangle_ComplexScenario_Boxed                          10  avgt            173,073          ns/op
-VArrays.run_Rectangle_ComplexScenario_Boxed                        1000  avgt          18352,726          ns/op
-VArrays.run_Rectangle_ComplexScenario_Boxed                      100000  avgt        2839818,746          ns/op
-VArrays.run_Rectangle_ComplexScenario_PerSize                        10  avgt             59,116          ns/op
-VArrays.run_Rectangle_ComplexScenario_PerSize                      1000  avgt           4010,258          ns/op
-VArrays.run_Rectangle_ComplexScenario_PerSize                    100000  avgt         418385,315          ns/op
-VArrays.run_Rectangle_ComplexScenario_PerType                        10  avgt             65,780          ns/op
-VArrays.run_Rectangle_ComplexScenario_PerType                      1000  avgt           3894,289          ns/op
-VArrays.run_Rectangle_ComplexScenario_PerType                    100000  avgt         447059,806          ns/op
-VArrays.run_Rectangle_ComplexScenario_TwoArrays                      10  avgt             59,995          ns/op
-VArrays.run_Rectangle_ComplexScenario_TwoArrays                    1000  avgt           4524,253          ns/op
-VArrays.run_Rectangle_ComplexScenario_TwoArrays                  100000  avgt         507382,251          ns/op
-VArrays.run_Rectangle_Create_Boxed                                   10  avgt             57,986          ns/op
-VArrays.run_Rectangle_Create_Boxed                                 1000  avgt           5703,111          ns/op
-VArrays.run_Rectangle_Create_Boxed                               100000  avgt         506440,164          ns/op
-VArrays.run_Rectangle_Create_PerSize                                 10  avgt             21,712          ns/op
-VArrays.run_Rectangle_Create_PerSize                               1000  avgt           1055,909          ns/op
-VArrays.run_Rectangle_Create_PerSize                             100000  avgt          95365,237          ns/op
-VArrays.run_Rectangle_Create_PerType                                 10  avgt             27,162          ns/op
-VArrays.run_Rectangle_Create_PerType                               1000  avgt           1050,679          ns/op
-VArrays.run_Rectangle_Create_PerType                             100000  avgt          95144,017          ns/op
-VArrays.run_Rectangle_Create_TwoArrays                               10  avgt             21,758          ns/op
-VArrays.run_Rectangle_Create_TwoArrays                             1000  avgt           1791,874          ns/op
-VArrays.run_Rectangle_Create_TwoArrays                           100000  avgt         140857,111          ns/op
-VArrays.run_Rectangle_WriteInNaturalOrder_Boxed          10  avgt             44,624          ns/op
-VArrays.run_Rectangle_WriteInNaturalOrder_Boxed        1000  avgt           5357,128          ns/op
-VArrays.run_Rectangle_WriteInNaturalOrder_Boxed      100000  avgt         434758,654          ns/op
-VArrays.run_Rectangle_WriteInNaturalOrder_PerSize        10  avgt              8,431          ns/op
-VArrays.run_Rectangle_WriteInNaturalOrder_PerSize      1000  avgt            467,158          ns/op
-VArrays.run_Rectangle_WriteInNaturalOrder_PerSize    100000  avgt          46974,359          ns/op
-VArrays.run_Rectangle_WriteInNaturalOrder_PerType        10  avgt              8,419          ns/op
-VArrays.run_Rectangle_WriteInNaturalOrder_PerType      1000  avgt            467,214          ns/op
-VArrays.run_Rectangle_WriteInNaturalOrder_PerType    100000  avgt          46633,616          ns/op
-VArrays.run_Rectangle_WriteInNaturalOrder_TwoArrays      10  avgt              8,599          ns/op
-VArrays.run_Rectangle_WriteInNaturalOrder_TwoArrays    1000  avgt            471,627          ns/op
-VArrays.run_Rectangle_WriteInNaturalOrder_TwoArrays  100000  avgt          56631,103          ns/op
-VArrays.run_Rectangle_WriteInRandomOrder_Boxed           10  avgt             46,616          ns/op
-VArrays.run_Rectangle_WriteInRandomOrder_Boxed         1000  avgt           5719,439          ns/op
-VArrays.run_Rectangle_WriteInRandomOrder_Boxed       100000  avgt         517346,425          ns/op
-VArrays.run_Rectangle_WriteInRandomOrder_PerSize         10  avgt              8,421          ns/op
-VArrays.run_Rectangle_WriteInRandomOrder_PerSize       1000  avgt            466,847          ns/op
-VArrays.run_Rectangle_WriteInRandomOrder_PerSize     100000  avgt          83529,346          ns/op
-VArrays.run_Rectangle_WriteInRandomOrder_PerType         10  avgt              8,446          ns/op
-VArrays.run_Rectangle_WriteInRandomOrder_PerType       1000  avgt            467,019          ns/op
-VArrays.run_Rectangle_WriteInRandomOrder_PerType     100000  avgt          83450,022          ns/op
-VArrays.run_Rectangle_WriteInRandomOrder_TwoArrays       10  avgt              8,594          ns/op
-VArrays.run_Rectangle_WriteInRandomOrder_TwoArrays     1000  avgt            480,649          ns/op
-VArrays.run_Rectangle_WriteInRandomOrder_TwoArrays   100000  avgt          83239,655          ns/op
-VArrays.run_Triangle_ReadInNaturalOrder_Boxed                    10  avgt             20,821          ns/op
-VArrays.run_Triangle_ReadInNaturalOrder_Boxed                  1000  avgt           2071,601          ns/op
-VArrays.run_Triangle_ReadInNaturalOrder_Boxed                100000  avgt         281473,390          ns/op
-VArrays.run_Triangle_ReadInNaturalOrder_PerSize                  10  avgt             17,318          ns/op
-VArrays.run_Triangle_ReadInNaturalOrder_PerSize                1000  avgt           1117,619          ns/op
-VArrays.run_Triangle_ReadInNaturalOrder_PerSize              100000  avgt         148778,988          ns/op
-VArrays.run_Triangle_ReadInNaturalOrder_PerType                  10  avgt             17,547          ns/op
-VArrays.run_Triangle_ReadInNaturalOrder_PerType                1000  avgt           1115,737          ns/op
-VArrays.run_Triangle_ReadInNaturalOrder_PerType              100000  avgt         138890,743          ns/op
-VArrays.run_Triangle_ReadInNaturalOrder_TwoArrays                10  avgt             18,274          ns/op
-VArrays.run_Triangle_ReadInNaturalOrder_TwoArrays              1000  avgt           1174,180          ns/op
-VArrays.run_Triangle_ReadInNaturalOrder_TwoArrays            100000  avgt         158522,591          ns/op
-VArrays.run_Triangle_ReadInRandomOrder_Boxed                     10  avgt             20,932          ns/op
-VArrays.run_Triangle_ReadInRandomOrder_Boxed                   1000  avgt           1818,271          ns/op
-VArrays.run_Triangle_ReadInRandomOrder_Boxed                 100000  avgt        1100064,429          ns/op
-VArrays.run_Triangle_ReadInRandomOrder_PerSize                   10  avgt             17,347          ns/op
-VArrays.run_Triangle_ReadInRandomOrder_PerSize                 1000  avgt           1114,251          ns/op
-VArrays.run_Triangle_ReadInRandomOrder_PerSize               100000  avgt         588700,655          ns/op
-VArrays.run_Triangle_ReadInRandomOrder_PerType                   10  avgt             17,321          ns/op
-VArrays.run_Triangle_ReadInRandomOrder_PerType                 1000  avgt           1117,095          ns/op
-VArrays.run_Triangle_ReadInRandomOrder_PerType               100000  avgt         589864,909          ns/op
-VArrays.run_Triangle_ReadInRandomOrder_TwoArrays                 10  avgt             18,199          ns/op
-VArrays.run_Triangle_ReadInRandomOrder_TwoArrays               1000  avgt           1195,531          ns/op
-VArrays.run_Triangle_ReadInRandomOrder_TwoArrays             100000  avgt         769584,045          ns/op
-VArrays.run_Triangle_ComplexScenario_Boxed                           10  avgt            337,272          ns/op
-VArrays.run_Triangle_ComplexScenario_Boxed                         1000  avgt          40074,134          ns/op
-VArrays.run_Triangle_ComplexScenario_Boxed                       100000  avgt       10369907,555          ns/op
-VArrays.run_Triangle_ComplexScenario_PerSize                         10  avgt            211,414          ns/op
-VArrays.run_Triangle_ComplexScenario_PerSize                       1000  avgt          21176,621          ns/op
-VArrays.run_Triangle_ComplexScenario_PerSize                     100000  avgt        2814996,191          ns/op
-VArrays.run_Triangle_ComplexScenario_PerType                         10  avgt            208,941          ns/op
-VArrays.run_Triangle_ComplexScenario_PerType                       1000  avgt          21081,539          ns/op
-VArrays.run_Triangle_ComplexScenario_PerType                     100000  avgt        2643090,740          ns/op
-VArrays.run_Triangle_ComplexScenario_TwoArrays                       10  avgt            181,868          ns/op
-VArrays.run_Triangle_ComplexScenario_TwoArrays                     1000  avgt          18345,786          ns/op
-VArrays.run_Triangle_ComplexScenario_TwoArrays                   100000  avgt        2662266,797          ns/op
-VArrays.run_Triangle_Create_Boxed                                    10  avgt            123,233          ns/op
-VArrays.run_Triangle_Create_Boxed                                  1000  avgt          12556,946          ns/op
-VArrays.run_Triangle_Create_Boxed                                100000  avgt        1240045,612          ns/op
-VArrays.run_Triangle_Create_PerSize                                  10  avgt            125,007          ns/op
-VArrays.run_Triangle_Create_PerSize                                1000  avgt          12868,346          ns/op
-VArrays.run_Triangle_Create_PerSize                              100000  avgt        1294908,836          ns/op
-VArrays.run_Triangle_Create_PerType                                  10  avgt            132,371          ns/op
-VArrays.run_Triangle_Create_PerType                                1000  avgt          12816,498          ns/op
-VArrays.run_Triangle_Create_PerType                              100000  avgt        1240359,148          ns/op
-VArrays.run_Triangle_Create_TwoArrays                                10  avgt             99,553          ns/op
-VArrays.run_Triangle_Create_TwoArrays                              1000  avgt           9948,603          ns/op
-VArrays.run_Triangle_Create_TwoArrays                            100000  avgt        1087286,857          ns/op
-VArrays.run_Triangle_WriteInNaturalOrder_Boxed                       10  avgt             93,500          ns/op
-VArrays.run_Triangle_WriteInNaturalOrder_Boxed                     1000  avgt           9790,621          ns/op
-VArrays.run_Triangle_WriteInNaturalOrder_Boxed                   100000  avgt        1041209,170          ns/op
-VArrays.run_Triangle_WriteInNaturalOrder_PerSize                     10  avgt             29,065          ns/op
-VArrays.run_Triangle_WriteInNaturalOrder_PerSize                   1000  avgt           2902,013          ns/op
-VArrays.run_Triangle_WriteInNaturalOrder_PerSize                 100000  avgt         288880,338          ns/op
-VArrays.run_Triangle_WriteInNaturalOrder_PerType                     10  avgt             27,915          ns/op
-VArrays.run_Triangle_WriteInNaturalOrder_PerType                   1000  avgt           2881,281          ns/op
-VArrays.run_Triangle_WriteInNaturalOrder_PerType                 100000  avgt         289851,527          ns/op
-VArrays.run_Triangle_WriteInNaturalOrder_TwoArrays                   10  avgt             29,239          ns/op
-VArrays.run_Triangle_WriteInNaturalOrder_TwoArrays                 1000  avgt           2882,795          ns/op
-VArrays.run_Triangle_WriteInNaturalOrder_TwoArrays               100000  avgt         293217,388          ns/op
-VArrays.run_Triangle_WriteInRandomOrder_Boxed                        10  avgt             93,325          ns/op
-VArrays.run_Triangle_WriteInRandomOrder_Boxed                      1000  avgt           9573,359          ns/op
-VArrays.run_Triangle_WriteInRandomOrder_Boxed                    100000  avgt        1281187,959          ns/op
-VArrays.run_Triangle_WriteInRandomOrder_PerSize                      10  avgt             29,527          ns/op
-VArrays.run_Triangle_WriteInRandomOrder_PerSize                    1000  avgt           2878,958          ns/op
-VArrays.run_Triangle_WriteInRandomOrder_PerSize                  100000  avgt         305457,766          ns/op
-VArrays.run_Triangle_WriteInRandomOrder_PerType                      10  avgt             27,963          ns/op
-VArrays.run_Triangle_WriteInRandomOrder_PerType                    1000  avgt           2877,015          ns/op
-VArrays.run_Triangle_WriteInRandomOrder_PerType                  100000  avgt         295451,046          ns/op
-VArrays.run_Triangle_WriteInRandomOrder_TwoArrays                    10  avgt             29,403          ns/op
-VArrays.run_Triangle_WriteInRandomOrder_TwoArrays                  1000  avgt           2883,299          ns/op
-VArrays.run_Triangle_WriteInRandomOrder_TwoArrays                100000  avgt         303478,208          ns/op
+VArrays.run_Point2D_ComplexScenario_Boxed                            10  avgt    4       75,767 ±      3,176  ns/op
+VArrays.run_Point2D_ComplexScenario_Boxed                          1000  avgt    4     7887,167 ±    577,216  ns/op
+VArrays.run_Point2D_ComplexScenario_Boxed                        100000  avgt    4   839491,995 ±  81934,146  ns/op
+VArrays.run_Point2D_ComplexScenario_PerSize                          10  avgt    4       79,125 ±     48,040  ns/op
+VArrays.run_Point2D_ComplexScenario_PerSize                        1000  avgt    4     3357,630 ±    475,127  ns/op
+VArrays.run_Point2D_ComplexScenario_PerSize                      100000  avgt    4   352196,869 ±  40427,911  ns/op
+VArrays.run_Point2D_ComplexScenario_PerType                          10  avgt    4       65,941 ±      1,260  ns/op
+VArrays.run_Point2D_ComplexScenario_PerType                        1000  avgt    4     3335,723 ±    434,205  ns/op
+VArrays.run_Point2D_ComplexScenario_PerType                      100000  avgt    4   352054,680 ±  38396,223  ns/op
+VArrays.run_Point2D_ComplexScenario_TwoArrays                        10  avgt    4       52,745 ±      0,789  ns/op
+VArrays.run_Point2D_ComplexScenario_TwoArrays                      1000  avgt    4     3790,059 ±    450,826  ns/op
+VArrays.run_Point2D_ComplexScenario_TwoArrays                    100000  avgt    4   535003,289 ±  61116,541  ns/op
+VArrays.run_Point2D_Create_Boxed                                     10  avgt    4       22,258 ±      0,326  ns/op
+VArrays.run_Point2D_Create_Boxed                                   1000  avgt    4     2221,425 ±    260,998  ns/op
+VArrays.run_Point2D_Create_Boxed                                 100000  avgt    4   180792,242 ±  21143,949  ns/op
+VArrays.run_Point2D_Create_PerSize                                   10  avgt    4       16,888 ±      1,872  ns/op
+VArrays.run_Point2D_Create_PerSize                                 1000  avgt    4      477,162 ±      5,382  ns/op
+VArrays.run_Point2D_Create_PerSize                               100000  avgt    4    47184,435 ±   6351,846  ns/op
+VArrays.run_Point2D_Create_PerType                                   10  avgt    4       22,162 ±      3,085  ns/op
+VArrays.run_Point2D_Create_PerType                                 1000  avgt    4      479,839 ±      2,504  ns/op
+VArrays.run_Point2D_Create_PerType                               100000  avgt    4    46687,490 ±   2082,816  ns/op
+VArrays.run_Point2D_Create_TwoArrays                                 10  avgt    4       13,478 ±      1,668  ns/op
+VArrays.run_Point2D_Create_TwoArrays                               1000  avgt    4      777,958 ±     32,720  ns/op
+VArrays.run_Point2D_Create_TwoArrays                             100000  avgt    4    65500,336 ±   4149,581  ns/op
+VArrays.run_Point2D_ReadInNaturalOrder_Boxed                         10  avgt    4       10,679 ±      0,533  ns/op
+VArrays.run_Point2D_ReadInNaturalOrder_Boxed                       1000  avgt    4      576,708 ±     83,963  ns/op
+VArrays.run_Point2D_ReadInNaturalOrder_Boxed                     100000  avgt    4    68073,928 ±   3924,842  ns/op
+VArrays.run_Point2D_ReadInNaturalOrder_PerSize                       10  avgt    4       10,794 ±      0,118  ns/op
+VArrays.run_Point2D_ReadInNaturalOrder_PerSize                     1000  avgt    4      675,042 ±     81,656  ns/op
+VArrays.run_Point2D_ReadInNaturalOrder_PerSize                   100000  avgt    4    66113,639 ±   7938,434  ns/op
+VArrays.run_Point2D_ReadInNaturalOrder_PerType                       10  avgt    4       10,884 ±      1,560  ns/op
+VArrays.run_Point2D_ReadInNaturalOrder_PerType                     1000  avgt    4      669,951 ±     77,802  ns/op
+VArrays.run_Point2D_ReadInNaturalOrder_PerType                   100000  avgt    4    65510,889 ±    169,325  ns/op
+VArrays.run_Point2D_ReadInNaturalOrder_TwoArrays                     10  avgt    4       11,002 ±      1,474  ns/op
+VArrays.run_Point2D_ReadInNaturalOrder_TwoArrays                   1000  avgt    4      671,101 ±     75,264  ns/op
+VArrays.run_Point2D_ReadInNaturalOrder_TwoArrays                 100000  avgt    4    65907,498 ±    169,083  ns/op
+VArrays.run_Point2D_ReadInRandomOrder_Boxed                          10  avgt    4        9,404 ±      1,212  ns/op
+VArrays.run_Point2D_ReadInRandomOrder_Boxed                        1000  avgt    4      577,060 ±     71,608  ns/op
+VArrays.run_Point2D_ReadInRandomOrder_Boxed                      100000  avgt    4   131928,340 ±   1032,735  ns/op
+VArrays.run_Point2D_ReadInRandomOrder_PerSize                        10  avgt    4       10,879 ±      1,330  ns/op
+VArrays.run_Point2D_ReadInRandomOrder_PerSize                      1000  avgt    4      667,356 ±      7,995  ns/op
+VArrays.run_Point2D_ReadInRandomOrder_PerSize                    100000  avgt    4    75884,590 ±  12176,991  ns/op
+VArrays.run_Point2D_ReadInRandomOrder_PerType                        10  avgt    4       10,894 ±      1,248  ns/op
+VArrays.run_Point2D_ReadInRandomOrder_PerType                      1000  avgt    4      665,265 ±     13,291  ns/op
+VArrays.run_Point2D_ReadInRandomOrder_PerType                    100000  avgt    4    75496,927 ±   8556,821  ns/op
+VArrays.run_Point2D_ReadInRandomOrder_TwoArrays                      10  avgt    4       11,074 ±      1,834  ns/op
+VArrays.run_Point2D_ReadInRandomOrder_TwoArrays                    1000  avgt    4      677,439 ±      4,894  ns/op
+VArrays.run_Point2D_ReadInRandomOrder_TwoArrays                  100000  avgt    4    77537,698 ±  11165,614  ns/op
+VArrays.run_Point2D_WriteInNaturalOrder_Boxed                        10  avgt    4       26,035 ±      3,157  ns/op
+VArrays.run_Point2D_WriteInNaturalOrder_Boxed                      1000  avgt    4     2301,776 ±     15,320  ns/op
+VArrays.run_Point2D_WriteInNaturalOrder_Boxed                    100000  avgt    4   223262,179 ±   3227,565  ns/op
+VArrays.run_Point2D_WriteInNaturalOrder_PerSize                      10  avgt    4       10,963 ±      1,308  ns/op
+VArrays.run_Point2D_WriteInNaturalOrder_PerSize                    1000  avgt    4      720,987 ±      9,448  ns/op
+VArrays.run_Point2D_WriteInNaturalOrder_PerSize                  100000  avgt    4    74531,069 ±  10464,461  ns/op
+VArrays.run_Point2D_WriteInNaturalOrder_PerType                      10  avgt    4       10,855 ±      0,315  ns/op
+VArrays.run_Point2D_WriteInNaturalOrder_PerType                    1000  avgt    4      742,285 ±    105,557  ns/op
+VArrays.run_Point2D_WriteInNaturalOrder_PerType                  100000  avgt    4    73142,437 ±    166,095  ns/op
+VArrays.run_Point2D_WriteInNaturalOrder_TwoArrays                    10  avgt    4       11,817 ±      1,571  ns/op
+VArrays.run_Point2D_WriteInNaturalOrder_TwoArrays                  1000  avgt    4      814,777 ±      4,013  ns/op
+VArrays.run_Point2D_WriteInNaturalOrder_TwoArrays                100000  avgt    4   136840,490 ±   2424,129  ns/op
+VArrays.run_Point2D_WriteInRandomOrder_Boxed                         10  avgt    4       25,981 ±      4,238  ns/op
+VArrays.run_Point2D_WriteInRandomOrder_Boxed                       1000  avgt    4     2341,434 ±     25,463  ns/op
+VArrays.run_Point2D_WriteInRandomOrder_Boxed                     100000  avgt    4   317643,242 ±  39485,713  ns/op
+VArrays.run_Point2D_WriteInRandomOrder_PerSize                       10  avgt    4       10,981 ±      1,248  ns/op
+VArrays.run_Point2D_WriteInRandomOrder_PerSize                     1000  avgt    4      740,424 ±      1,363  ns/op
+VArrays.run_Point2D_WriteInRandomOrder_PerSize                   100000  avgt    4    88024,313 ±  16279,672  ns/op
+VArrays.run_Point2D_WriteInRandomOrder_PerType                       10  avgt    4       10,986 ±      1,341  ns/op
+VArrays.run_Point2D_WriteInRandomOrder_PerType                     1000  avgt    4      740,526 ±      1,420  ns/op
+VArrays.run_Point2D_WriteInRandomOrder_PerType                   100000  avgt    4    86607,707 ±   9499,097  ns/op
+VArrays.run_Point2D_WriteInRandomOrder_TwoArrays                     10  avgt    4       11,736 ±      1,260  ns/op
+VArrays.run_Point2D_WriteInRandomOrder_TwoArrays                   1000  avgt    4      815,268 ±      3,169  ns/op
+VArrays.run_Point2D_WriteInRandomOrder_TwoArrays                 100000  avgt    4    94121,252 ±  13091,678  ns/op
+VArrays.run_Rectangle_ComplexScenario_Boxed                          10  avgt    4      167,286 ±     35,503  ns/op
+VArrays.run_Rectangle_ComplexScenario_Boxed                        1000  avgt    4    17421,237 ±    168,615  ns/op
+VArrays.run_Rectangle_ComplexScenario_Boxed                      100000  avgt    4  2339676,770 ± 295218,190  ns/op
+VArrays.run_Rectangle_ComplexScenario_PerSize                        10  avgt    4       57,153 ±      0,377  ns/op
+VArrays.run_Rectangle_ComplexScenario_PerSize                      1000  avgt    4     3877,493 ±     19,472  ns/op
+VArrays.run_Rectangle_ComplexScenario_PerSize                    100000  avgt    4   416558,549 ±  62140,304  ns/op
+VArrays.run_Rectangle_ComplexScenario_PerType                        10  avgt    4       63,768 ±      0,474  ns/op
+VArrays.run_Rectangle_ComplexScenario_PerType                      1000  avgt    4     3830,665 ±      9,360  ns/op
+VArrays.run_Rectangle_ComplexScenario_PerType                    100000  avgt    4   415219,593 ±  57032,473  ns/op
+VArrays.run_Rectangle_ComplexScenario_TwoArrays                      10  avgt    4       54,513 ±      0,815  ns/op
+VArrays.run_Rectangle_ComplexScenario_TwoArrays                    1000  avgt    4     4457,663 ±     11,970  ns/op
+VArrays.run_Rectangle_ComplexScenario_TwoArrays                  100000  avgt    4   482867,035 ±  63895,976  ns/op
+VArrays.run_Rectangle_Create_Boxed                                   10  avgt    4       54,536 ±      5,905  ns/op
+VArrays.run_Rectangle_Create_Boxed                                 1000  avgt    4     5546,469 ±     63,656  ns/op
+VArrays.run_Rectangle_Create_Boxed                               100000  avgt    4   507492,289 ±  63428,714  ns/op
+VArrays.run_Rectangle_Create_PerSize                                 10  avgt    4       21,070 ±      0,044  ns/op
+VArrays.run_Rectangle_Create_PerSize                               1000  avgt    4     1035,274 ±    113,415  ns/op
+VArrays.run_Rectangle_Create_PerSize                             100000  avgt    4    95318,538 ±  11565,823  ns/op
+VArrays.run_Rectangle_Create_PerType                                 10  avgt    4       26,450 ±      0,113  ns/op
+VArrays.run_Rectangle_Create_PerType                               1000  avgt    4     1035,932 ±    121,168  ns/op
+VArrays.run_Rectangle_Create_PerType                             100000  avgt    4    95979,248 ±  13555,577  ns/op
+VArrays.run_Rectangle_Create_TwoArrays                               10  avgt    4       21,045 ±      0,268  ns/op
+VArrays.run_Rectangle_Create_TwoArrays                             1000  avgt    4     1741,615 ±      6,742  ns/op
+VArrays.run_Rectangle_Create_TwoArrays                           100000  avgt    4   135352,270 ±  19586,839  ns/op
+VArrays.run_Rectangle_ReadInNaturalOrder_Boxed                       10  avgt    4       14,136 ±      0,110  ns/op
+VArrays.run_Rectangle_ReadInNaturalOrder_Boxed                     1000  avgt    4      958,279 ±      1,444  ns/op
+VArrays.run_Rectangle_ReadInNaturalOrder_Boxed                   100000  avgt    4   158302,693 ±  20130,228  ns/op
+VArrays.run_Rectangle_ReadInNaturalOrder_PerSize                     10  avgt    4       10,738 ±      0,582  ns/op
+VArrays.run_Rectangle_ReadInNaturalOrder_PerSize                   1000  avgt    4      939,517 ±    118,127  ns/op
+VArrays.run_Rectangle_ReadInNaturalOrder_PerSize                 100000  avgt    4    94684,754 ±  11331,279  ns/op
+VArrays.run_Rectangle_ReadInNaturalOrder_PerType                     10  avgt    4       10,690 ±      0,380  ns/op
+VArrays.run_Rectangle_ReadInNaturalOrder_PerType                   1000  avgt    4      930,393 ±    107,632  ns/op
+VArrays.run_Rectangle_ReadInNaturalOrder_PerType                 100000  avgt    4    94712,922 ±  11725,136  ns/op
+VArrays.run_Rectangle_ReadInNaturalOrder_TwoArrays                   10  avgt    4       11,046 ±      0,186  ns/op
+VArrays.run_Rectangle_ReadInNaturalOrder_TwoArrays                 1000  avgt    4      935,116 ±    110,486  ns/op
+VArrays.run_Rectangle_ReadInNaturalOrder_TwoArrays               100000  avgt    4    95593,321 ±  13121,201  ns/op
+VArrays.run_Rectangle_ReadInRandomOrder_Boxed                        10  avgt    4       14,174 ±      0,227  ns/op
+VArrays.run_Rectangle_ReadInRandomOrder_Boxed                      1000  avgt    4      962,342 ±      2,076  ns/op
+VArrays.run_Rectangle_ReadInRandomOrder_Boxed                    100000  avgt    4   269575,105 ±  17103,007  ns/op
+VArrays.run_Rectangle_ReadInRandomOrder_PerSize                      10  avgt    4       10,912 ±      1,553  ns/op
+VArrays.run_Rectangle_ReadInRandomOrder_PerSize                    1000  avgt    4      929,018 ±     85,994  ns/op
+VArrays.run_Rectangle_ReadInRandomOrder_PerSize                  100000  avgt    4    94166,730 ±   2169,109  ns/op
+VArrays.run_Rectangle_ReadInRandomOrder_PerType                      10  avgt    4       10,948 ±      1,719  ns/op
+VArrays.run_Rectangle_ReadInRandomOrder_PerType                    1000  avgt    4      930,888 ±    110,511  ns/op
+VArrays.run_Rectangle_ReadInRandomOrder_PerType                  100000  avgt    4    93958,046 ±    243,668  ns/op
+VArrays.run_Rectangle_ReadInRandomOrder_TwoArrays                    10  avgt    4       11,175 ±      1,269  ns/op
+VArrays.run_Rectangle_ReadInRandomOrder_TwoArrays                  1000  avgt    4      935,076 ±    109,819  ns/op
+VArrays.run_Rectangle_ReadInRandomOrder_TwoArrays                100000  avgt    4   108224,875 ±   4083,565  ns/op
+VArrays.run_Rectangle_WriteInNaturalOrder_Boxed          10  avgt    4       44,140 ±      5,171  ns/op
+VArrays.run_Rectangle_WriteInNaturalOrder_Boxed        1000  avgt    4     5235,277 ±    235,653  ns/op
+VArrays.run_Rectangle_WriteInNaturalOrder_Boxed      100000  avgt    4   429558,863 ±  58195,106  ns/op
+VArrays.run_Rectangle_WriteInNaturalOrder_PerSize        10  avgt    4        8,054 ±      1,079  ns/op
+VArrays.run_Rectangle_WriteInNaturalOrder_PerSize      1000  avgt    4      455,156 ±      0,625  ns/op
+VArrays.run_Rectangle_WriteInNaturalOrder_PerSize    100000  avgt    4    47137,042 ±   5371,574  ns/op
+VArrays.run_Rectangle_WriteInNaturalOrder_PerType        10  avgt    4        8,041 ±      1,125  ns/op
+VArrays.run_Rectangle_WriteInNaturalOrder_PerType      1000  avgt    4      455,601 ±      2,741  ns/op
+VArrays.run_Rectangle_WriteInNaturalOrder_PerType    100000  avgt    4    47480,926 ±   5428,769  ns/op
+VArrays.run_Rectangle_WriteInNaturalOrder_TwoArrays      10  avgt    4        8,121 ±      0,113  ns/op
+VArrays.run_Rectangle_WriteInNaturalOrder_TwoArrays    1000  avgt    4      458,240 ±      9,618  ns/op
+VArrays.run_Rectangle_WriteInNaturalOrder_TwoArrays  100000  avgt    4    56163,320 ±   5619,125  ns/op
+VArrays.run_Rectangle_WriteInRandomOrder_Boxed           10  avgt    4       44,217 ±      5,017  ns/op
+VArrays.run_Rectangle_WriteInRandomOrder_Boxed         1000  avgt    4     5380,228 ±    123,156  ns/op
+VArrays.run_Rectangle_WriteInRandomOrder_Boxed       100000  avgt    4   514027,762 ±  62203,482  ns/op
+VArrays.run_Rectangle_WriteInRandomOrder_PerSize         10  avgt    4        7,851 ±      0,053  ns/op
+VArrays.run_Rectangle_WriteInRandomOrder_PerSize       1000  avgt    4      460,087 ±     57,933  ns/op
+VArrays.run_Rectangle_WriteInRandomOrder_PerSize     100000  avgt    4    82702,288 ±  10982,334  ns/op
+VArrays.run_Rectangle_WriteInRandomOrder_PerType         10  avgt    4        7,881 ±      0,075  ns/op
+VArrays.run_Rectangle_WriteInRandomOrder_PerType       1000  avgt    4      459,391 ±     52,138  ns/op
+VArrays.run_Rectangle_WriteInRandomOrder_PerType     100000  avgt    4    83517,416 ±  10665,695  ns/op
+VArrays.run_Rectangle_WriteInRandomOrder_TwoArrays       10  avgt    4        8,109 ±      0,073  ns/op
+VArrays.run_Rectangle_WriteInRandomOrder_TwoArrays     1000  avgt    4      461,659 ±     55,507  ns/op
+VArrays.run_Rectangle_WriteInRandomOrder_TwoArrays   100000  avgt    4    81432,462 ±   2362,597  ns/op
+VArrays.run_Triangle_ComplexScenario_Boxed                           10  avgt    4      322,137 ±      4,751  ns/op
+VArrays.run_Triangle_ComplexScenario_Boxed                         1000  avgt    4    37805,844 ±   4970,827  ns/op
+VArrays.run_Triangle_ComplexScenario_Boxed                       100000  avgt    4  8942146,594 ± 586167,467  ns/op
+VArrays.run_Triangle_ComplexScenario_PerSize                         10  avgt    4      204,817 ±      2,599  ns/op
+VArrays.run_Triangle_ComplexScenario_PerSize                       1000  avgt    4    20910,485 ±   2870,225  ns/op
+VArrays.run_Triangle_ComplexScenario_PerSize                     100000  avgt    4  2568277,400 ± 301609,734  ns/op
+VArrays.run_Triangle_ComplexScenario_PerType                         10  avgt    4      206,311 ±     26,648  ns/op
+VArrays.run_Triangle_ComplexScenario_PerType                       1000  avgt    4    20770,513 ±   2142,984  ns/op
+VArrays.run_Triangle_ComplexScenario_PerType                     100000  avgt    4  2515710,587 ± 104598,914  ns/op
+VArrays.run_Triangle_ComplexScenario_TwoArrays                       10  avgt    4      180,040 ±     21,063  ns/op
+VArrays.run_Triangle_ComplexScenario_TwoArrays                     1000  avgt    4    18085,485 ±   2319,150  ns/op
+VArrays.run_Triangle_ComplexScenario_TwoArrays                   100000  avgt    4  2414160,708 ±  35124,963  ns/op
+VArrays.run_Triangle_Create_Boxed                                    10  avgt    4      119,107 ±     13,625  ns/op
+VArrays.run_Triangle_Create_Boxed                                  1000  avgt    4    12315,023 ±   1410,337  ns/op
+VArrays.run_Triangle_Create_Boxed                                100000  avgt    4  1196854,026 ±  27466,236  ns/op
+VArrays.run_Triangle_Create_PerSize                                  10  avgt    4      120,451 ±     14,196  ns/op
+VArrays.run_Triangle_Create_PerSize                                1000  avgt    4    12839,226 ±   1820,447  ns/op
+VArrays.run_Triangle_Create_PerSize                              100000  avgt    4  1262589,531 ±    817,269  ns/op
+VArrays.run_Triangle_Create_PerType                                  10  avgt    4      128,197 ±     16,012  ns/op
+VArrays.run_Triangle_Create_PerType                                1000  avgt    4    12693,980 ±     44,170  ns/op
+VArrays.run_Triangle_Create_PerType                              100000  avgt    4  1232258,751 ±  67499,672  ns/op
+VArrays.run_Triangle_Create_TwoArrays                                10  avgt    4       97,365 ±     12,334  ns/op
+VArrays.run_Triangle_Create_TwoArrays                              1000  avgt    4     9859,894 ±    209,950  ns/op
+VArrays.run_Triangle_Create_TwoArrays                            100000  avgt    4   992028,750 ±  10917,122  ns/op
+VArrays.run_Triangle_ReadInNaturalOrder_Boxed                        10  avgt    4       20,533 ±      2,873  ns/op
+VArrays.run_Triangle_ReadInNaturalOrder_Boxed                      1000  avgt    4     1881,548 ±    446,036  ns/op
+VArrays.run_Triangle_ReadInNaturalOrder_Boxed                    100000  avgt    4   257406,682 ±  74068,506  ns/op
+VArrays.run_Triangle_ReadInNaturalOrder_PerSize                      10  avgt    4       17,008 ±      2,749  ns/op
+VArrays.run_Triangle_ReadInNaturalOrder_PerSize                    1000  avgt    4     1105,037 ±    150,029  ns/op
+VArrays.run_Triangle_ReadInNaturalOrder_PerSize                  100000  avgt    4   131810,797 ±  17570,288  ns/op
+VArrays.run_Triangle_ReadInNaturalOrder_PerType                      10  avgt    4       17,002 ±      1,540  ns/op
+VArrays.run_Triangle_ReadInNaturalOrder_PerType                    1000  avgt    4     1092,117 ±      7,809  ns/op
+VArrays.run_Triangle_ReadInNaturalOrder_PerType                  100000  avgt    4   135940,855 ±  29496,558  ns/op
+VArrays.run_Triangle_ReadInNaturalOrder_TwoArrays                    10  avgt    4       17,736 ±      2,176  ns/op
+VArrays.run_Triangle_ReadInNaturalOrder_TwoArrays                  1000  avgt    4     1137,020 ±      8,236  ns/op
+VArrays.run_Triangle_ReadInNaturalOrder_TwoArrays                100000  avgt    4   166988,425 ±  22546,865  ns/op
+VArrays.run_Triangle_ReadInRandomOrder_Boxed                         10  avgt    4       20,593 ±      2,763  ns/op
+VArrays.run_Triangle_ReadInRandomOrder_Boxed                       1000  avgt    4     1816,695 ±    369,424  ns/op
+VArrays.run_Triangle_ReadInRandomOrder_Boxed                     100000  avgt    4   995998,356 ±  71900,746  ns/op
+VArrays.run_Triangle_ReadInRandomOrder_PerSize                       10  avgt    4       17,069 ±      2,513  ns/op
+VArrays.run_Triangle_ReadInRandomOrder_PerSize                     1000  avgt    4     1107,688 ±     91,349  ns/op
+VArrays.run_Triangle_ReadInRandomOrder_PerSize                   100000  avgt    4   567869,213 ±  24770,065  ns/op
+VArrays.run_Triangle_ReadInRandomOrder_PerType                       10  avgt    4       17,018 ±      2,263  ns/op
+VArrays.run_Triangle_ReadInRandomOrder_PerType                     1000  avgt    4     1097,093 ±     26,704  ns/op
+VArrays.run_Triangle_ReadInRandomOrder_PerType                   100000  avgt    4   623050,582 ± 189368,507  ns/op
+VArrays.run_Triangle_ReadInRandomOrder_TwoArrays                     10  avgt    4       18,237 ±      1,210  ns/op
+VArrays.run_Triangle_ReadInRandomOrder_TwoArrays                   1000  avgt    4     1206,455 ±    117,174  ns/op
+VArrays.run_Triangle_ReadInRandomOrder_TwoArrays                 100000  avgt    4   723240,267 ± 110373,298  ns/op
+VArrays.run_Triangle_WriteInNaturalOrder_Boxed                       10  avgt    4       90,832 ±      1,443  ns/op
+VArrays.run_Triangle_WriteInNaturalOrder_Boxed                     1000  avgt    4     9489,193 ±   1150,353  ns/op
+VArrays.run_Triangle_WriteInNaturalOrder_Boxed                   100000  avgt    4  1003620,881 ±  57439,247  ns/op
+VArrays.run_Triangle_WriteInNaturalOrder_PerSize                     10  avgt    4       28,288 ±      0,658  ns/op
+VArrays.run_Triangle_WriteInNaturalOrder_PerSize                   1000  avgt    4     2868,193 ±      2,940  ns/op
+VArrays.run_Triangle_WriteInNaturalOrder_PerSize                 100000  avgt    4   289611,831 ±    528,513  ns/op
+VArrays.run_Triangle_WriteInNaturalOrder_PerType                     10  avgt    4       27,277 ±      0,832  ns/op
+VArrays.run_Triangle_WriteInNaturalOrder_PerType                   1000  avgt    4     2817,791 ±     72,672  ns/op
+VArrays.run_Triangle_WriteInNaturalOrder_PerType                 100000  avgt    4   287902,225 ±   2008,849  ns/op
+VArrays.run_Triangle_WriteInNaturalOrder_TwoArrays                   10  avgt    4       28,591 ±      0,198  ns/op
+VArrays.run_Triangle_WriteInNaturalOrder_TwoArrays                 1000  avgt    4     2864,753 ±      2,319  ns/op
+VArrays.run_Triangle_WriteInNaturalOrder_TwoArrays               100000  avgt    4   292781,079 ±   5167,342  ns/op
+VArrays.run_Triangle_WriteInRandomOrder_Boxed                        10  avgt    4       90,743 ±      0,390  ns/op
+VArrays.run_Triangle_WriteInRandomOrder_Boxed                      1000  avgt    4     9356,926 ±    454,523  ns/op
+VArrays.run_Triangle_WriteInRandomOrder_Boxed                    100000  avgt    4  1217297,196 ±  39203,398  ns/op
+VArrays.run_Triangle_WriteInRandomOrder_PerSize                      10  avgt    4       28,620 ±      1,159  ns/op
+VArrays.run_Triangle_WriteInRandomOrder_PerSize                    1000  avgt    4     2871,826 ±     28,229  ns/op
+VArrays.run_Triangle_WriteInRandomOrder_PerSize                  100000  avgt    4   291686,426 ±   7435,755  ns/op
+VArrays.run_Triangle_WriteInRandomOrder_PerType                      10  avgt    4       27,225 ±      0,135  ns/op
+VArrays.run_Triangle_WriteInRandomOrder_PerType                    1000  avgt    4     2847,404 ±    160,697  ns/op
+VArrays.run_Triangle_WriteInRandomOrder_PerType                  100000  avgt    4   289066,001 ±   5139,822  ns/op
+VArrays.run_Triangle_WriteInRandomOrder_TwoArrays                    10  avgt    4       28,556 ±      0,089  ns/op
+VArrays.run_Triangle_WriteInRandomOrder_TwoArrays                  1000  avgt    4     2868,193 ±     24,662  ns/op
+VArrays.run_Triangle_WriteInRandomOrder_TwoArrays                100000  avgt    4   302969,334 ±  75955,061  ns/op
