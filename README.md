@@ -2,10 +2,13 @@
 
 ## Introduction
 
-In this document, we will compare performance of different strategies of flattening for `VArrays` of multi-field values classes. 
+In this document, we will compare performance of different strategies of flattening for `VArrays` of multi-field values
+classes.
 
 ### Flattening strategies
+
 Namely, we will compare three strategies:
+
 1. No flattening, i.e. storing an array of boxes (as a baseline)
 2. Per-type, i.e. 8 arrays for each of primitive types and one for `Any`
     ```kotlin
@@ -31,13 +34,27 @@ Namely, we will compare three strategies:
         @JvmField val refs: Array<Any?>
    )
    ```
+
+4. Three arrays: `int[]` array for primitives up to 4 bytes, `long[]` array for 8-byte primitives, `Any[]` for
+   references
+   ```kotlin
+    class WrapperThreeArrays(
+        @JvmField val fours: IntArray?,
+        @JvmField val eights: LongArray?,
+        @JvmField val refs: Array<Any?>?
+   )
+   ```
 4. Two arrays: `long[]` array for all primitives and `Any[]` for references
    ```kotlin
-   class WrapperTwoArrays(@JvmField val primitives: LongArray, @JvmField refs: Array<Any?>)
+   class WrapperTwoArrays(
+   @JvmField val primitives: LongArray,
+   @JvmField refs: Array<Any?>)
    ```
 
 ### Elements types
+
 We will use 3 different array element types in the benchmark:
+
 1. 2-d point with integer coordinates
    ```kotlin
    data class IntPoint2D(val x: Int, val y: Int)
@@ -51,8 +68,9 @@ We will use 3 different array element types in the benchmark:
    data class Point3D(val x: Double, val y: Double, val z: Double)
    data class Triangle(val p1: Point3D, val p2: Point3D, val p3: Point3D, val flag: Boolean, val weight: Float)
    ```
-   
+
 ### Usage scenarios
+
 We will benchmark 6 usage scenarios: initializing, natural-order reading, random-order reading, natural-order
 writing, random-order writing, and the composition of all above.
 
@@ -65,11 +83,9 @@ we will rewrite x-coordinate of first vertex of every rectangle.
 For `Triangle` arrays, in reading scenario we will calculate a triangle which coordinates are weighted means of
 triangles with `flag == true`, and in writing scenario we will rewrite x-coordinates of all vertices and flags.
 
-## Benchmark data
+## Benchmark plots
 
 ### `IntPoint2D`
-
-#### Initializing
 
 ![](plots/Point2D_Create_HotSpot.png)
 ![](plots/Point2D_Create_ART.png)
@@ -88,7 +104,6 @@ triangles with `flag == true`, and in writing scenario we will rewrite x-coordin
 
 ![](plots/Point2D_ComplexScenario_HotSpot.png)
 ![](plots/Point2D_ComplexScenario_ART.png)
-
 
 ### `Rectangle`
 
