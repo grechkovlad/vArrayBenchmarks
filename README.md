@@ -13,25 +13,25 @@ Namely, we will compare three strategies:
 2. Per-type, i.e. 8 arrays for each of primitive types and one for `Any`
     ```kotlin
    class WrapperPerType(
-        @JvmField val booleans: BooleanArray,
-        @JvmField val bytes: ByteArray,
-        @JvmField val shorts: ShortArray,
-        @JvmField val ints: IntArray,
-        @JvmField val longs: LongArray,
-        @JvmField val floats: FloatArray,
-        @JvmField val doubles: DoubleArray,
-        @JvmField val chars: CharArray,
-        @JvmField val refs: Array<Any?>
+        @JvmField val booleans: BooleanArray?,
+        @JvmField val bytes: ByteArray?,
+        @JvmField val shorts: ShortArray?,
+        @JvmField val ints: IntArray?,
+        @JvmField val longs: LongArray?,
+        @JvmField val floats: FloatArray?,
+        @JvmField val doubles: DoubleArray?,
+        @JvmField val chars: CharArray?,
+        @JvmField val refs: Array<Any?>?
     )
    ```
 3. Per-size, i.e. 4 arrays for each size of primitive types and one for `Any`
    ```kotlin
    class WrapperPerSize(
-        @JvmField val ones: ByteArray,
-        @JvmField val twos: ShortArray,
-        @JvmField val fours: IntArray,
-        @JvmField val eights: LongArray,
-        @JvmField val refs: Array<Any?>
+        @JvmField val ones: ByteArray?,
+        @JvmField val twos: ShortArray?,
+        @JvmField val fours: IntArray?,
+        @JvmField val eights: LongArray?,
+        @JvmField val refs: Array<Any?>?
    )
    ```
 
@@ -47,8 +47,8 @@ Namely, we will compare three strategies:
 4. Two arrays: `long[]` array for all primitives and `Any[]` for references
    ```kotlin
    class WrapperTwoArrays(
-   @JvmField val primitives: LongArray,
-   @JvmField refs: Array<Any?>)
+   @JvmField val primitives: LongArray?,
+   @JvmField refs: Array<Any?>?)
    ```
 
 ### Elements types
